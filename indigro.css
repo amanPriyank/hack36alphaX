@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width :100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("vocal1.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+.nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .nav h1{
+    font-size: 200%;
+} */
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Courgette';
+}
+.nav-links ul li::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #ff6f3d;
+    display: block;
+    margin: auto;
+    transition: .5s
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color:#fff;
+    position : absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 68px;
+    color: #01af75;
+    font-family: 'Kaushan Script';
+}
+.text-box p{
+    margin: 10px 0px 40px;
+    font-size: 22px;
+    color: rgb(255, 254, 255);
+    font-family: 'kalam';
+}
+.hero-btn{
+    font-family: 'Satisfy';
+    display: inline-block;
+    text-decoration: none;
+    color: #02fca9;
+    border: 1px solid rgb(0, 217, 255);
+    border-radius: 5px;
+    padding: 12px 34px;
+    font-size: 18px bold;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #003b46;
+    background: #003b46;
+    color: #fff;
+    transition: .8s;
+}
+nav .fa{
+    display: none;
+}
+@media(max-width : 700px){
+    .text-box h1{
+        font-size: 20px;
+        color: #01af75;
+        font-family: 'Kaushan Script';
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        background: transparent;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+    }
+    nav .fa{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links ul{
+        padding: 30px;
+    }
+}
+.our{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    background: #bbd1e9;
+}
+.our h1{
+    font-size: 40px;
+    padding: 20px;
+    font-weight: 600;
+    font-family: 'Tapestry';
+    color: darkcyan;
+    text-decoration: underline;
+}
+.our h1:hover{
+    font-size: 42px;
+    color: #01af75;
+    transition: 1.2s;
+    cursor: pointer;
+}
+.our p{
+    color: rgb(37, 37, 37);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    font-family: 'Kalam';
+
+}
+.glance{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    background: #bbd1e9
+}
+.glance h1{
+    font-size: 40px;
+    padding: 20px;
+    font-weight: 600;
+    font-family: 'Tapestry';
+    color: darkcyan;
+    text-decoration: underline;
+}
+.glance p{
+    color: rgb(37, 37, 37);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    font-family: 'Kalam';
+}
+.grid{
+    display: grid;
+    width: 100%;
+    grid-gap: 6rem;
+    grid-template-columns: repeat(aut-fit, minmax(30rem, 1fr));
+    align-items: start;
+}
+/* .card-header h3{
+    text-align: center;
+    font-family: 'Satisfy';
+    font-size: 900%;
+    color: aquamarine;
+}
+.card-image{
+    height: 50px;
+    width: 50px;
+    border-radius: 21px;
+} */
+.change h3{
+    font-family: 'Satisfy';
+    color: #003b46;
+    font-size: 145%;
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background:#6e8eaf;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-family: 'Satisfy';
+    font-size: 132%;
+    text-decoration: underline;
+}

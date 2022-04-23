@@ -1,0 +1,37 @@
+#container{
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+body{background: linear-gradient(120deg, #2980b9,#ecec07);}
+#container div{
+    height: 600px;
+    width: 600px;
+    background-repeat: no-repeat;
+    
+
+}
+#div1{
+    background-image: url(brassware.jpeg);
+    }
+
+#div2{
+    background-image: url(Chikankari.jpeg);
+}
+
+#div3{
+    background-image: url(marble-carving.jpeg);
+}
+
+#div4{
+    background-image: url(khujra-pottery.jpeg);
+
+}
+#container div img{
+    height:200px;
+    width:200px;
+    border-radius: 50px;
+}

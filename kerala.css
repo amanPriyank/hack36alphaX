@@ -1,0 +1,41 @@
+#container{
+    height: auto;
+    width: 100vw;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+body{
+    background: linear-gradient(120deg, #2980b9,#47ef1d);
+
+}
+#container div{
+    height: 600px;
+    width: 600px;
+    background-repeat: no-repeat;
+    
+
+}
+#div1{
+    background-image: url(lamps.jpeg);
+    }
+
+#div2{
+    background-image: url(coconut-items2.jpeg);
+}
+
+#div3{
+    background-image: url(aroma-oil.jpg);
+}
+
+#div4{
+    background-image: url(Kasavu-mundu.png);
+
+}
+#container div img{
+    height:200px;
+    width:200px;
+    border-radius: 50px;
+}

@@ -1,0 +1,77 @@
+body,html{
+    margin: 0;
+    border: 0;
+    background:linear-gradient(120deg, #1a4645, #051821);
+    font-family: "Kalam",sans-serif;
+    height: 100vh;
+    overflow: hidden;
+}
+.contact-section{
+/* background:linear-gradient(120deg, #1a4645, #051821); */
+background-size: cover;
+padding: 40px 0;
+}
+.contact-section h1{
+    text-align: center;
+    color: #e2d5cd;
+    font-family: "kalam";
+    text-decoration: underline;
+}
+.contact-section h1:hover{
+    color: #f0c869;
+    transition: .7s ease-in;
+}
+.border{
+width: 200px;
+height: 10px;
+background: #34495e;
+border-radius: 20px;
+margin: 40px auto;
+}
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+    
+}
+.contact-form-text{
+    display: block;
+    text-align: center;
+    font-size: 120%;
+    border-radius: 8px;
+    font-family: 'Kalam';
+    width:100%;
+    height: 50px;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    outline: none;
+    color: #ddd;
+    transition: .7s ease;
+}
+.contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #35c9b5;
+}
+textarea.contact-form-text{
+    resize: none;
+    height:  80px;
+}
+.contact-form-btn{
+    font-family: 'Baloo 2';
+    font-size: 110%;
+    float: right;
+    border: 0;
+    background: #34495e;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 23px;
+    cursor: pointer;
+    transition: .7s ease;    
+}
+.contact-form-btn:hover{
+    background: #35c9b5;
+    color: #111;
+
+}

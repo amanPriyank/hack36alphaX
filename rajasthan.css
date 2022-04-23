@@ -1,0 +1,40 @@
+#container{
+    height: auto;
+    width: 100vw;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#container div{
+    height: 600px;
+    width: 600px;
+    background-repeat: no-repeat;
+    
+
+}
+#div1{
+    background-image: url(blue-pottery.png);
+    }
+
+#div2{
+    background-image: url(ethnic-carpet.png);
+}
+
+#div3{
+    background-image: url(menaakri\ jewellery.png);
+}
+
+#div4{
+    background-image: url(spices.png);
+
+}
+#container div img{
+    height:200px;
+    width:200px;
+    border-radius: 50px;
+}
+body{background: linear-gradient(120deg, #2980b9,#ef5f1d);
+
+}

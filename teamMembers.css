@@ -1,0 +1,45 @@
+body{
+    height:auto;
+    background-image: url(basketball.png);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.95;
+    background-attachment: fixed;
+
+}
+
+
+.hover{
+    color: white;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.hover :hover{
+    color:rgb(46, 238, 20);
+    border-bottom:1px solid white ;
+}
+#img-list img{
+    height:350px;
+    width:350px;
+    border-radius: 50%;
+
+}
+
+
+#img-list li{
+    display: inline-block;
+    margin: 0px 900px ;
+    color:white;
+    font-size: large;
+    text-align: center;
+}
+#img-list li :hover{
+    border-bottom: 5px solid white;
+    }
+#home{
+    color: white;
+
+}
