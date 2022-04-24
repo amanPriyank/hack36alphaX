@@ -5,15 +5,13 @@ Introduction
 Demo Vido Link
 
 
-Presentation Link
-
 
 Technology Stack
 
 
 
-<border-bottom: solid 4px;>
-Contributors<br>
+
+<h1>Contributors</h1><br>
 Team Name: alphaX<br>
 1.Priyank Aman<br>
 2.Aman Shankar Singh<br>
