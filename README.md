@@ -5,7 +5,7 @@
 <h2>Demo Vido Link:</h2>
 
 <h2>Presentation Link:</h2>
-PPT INDIGRO.pptx
+https://docs.google.com/presentation/d/1dt0q0x0rD6GgUBCsAOUiE2rGUI0FQVyO/edit?usp=drivesdk&ouid=101375773297455138113&rtpof=true&sd=true
 
 <h2>Technology Stack:</h2>
 
