@@ -20,6 +20,9 @@ body{
     padding: 0 0 20px 0;
     border-bottom: 1px solid silver;
 }
+.center p{
+    text-align: center;
+    color: #2b2929;}
 .center form{
     padding: 0 40px;
     box-sizing: border-box;
