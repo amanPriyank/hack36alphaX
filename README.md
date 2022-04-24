@@ -8,10 +8,6 @@ Let's move forward with the mantra of "Make for the World" along with "Make in I
 <h2>Presentation Link:</h2>
 https://docs.google.com/presentation/d/1dt0q0x0rD6GgUBCsAOUiE2rGUI0FQVyO/edit?usp=drivesdk&ouid=101375773297455138113&rtpof=true&sd=true
 
-<h2>Technology Stack:</h2>
-
-
-
 
 <h2>Contributors:</h2><br>
 Team Name: alphaX<br>
