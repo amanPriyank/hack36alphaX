@@ -14,8 +14,8 @@ Technology Stack
 
 
 Contributors
-Team Name: alphaX
-1.Priyank Aman
-2.Aman Shankar Singh
+Team Name: alphaX<br>
+1.Priyank Aman<br>
+2.Aman Shankar Singh<br>
 3.Harsh Kumar Tiwary
 4.Vani Tripathi
