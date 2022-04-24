@@ -12,10 +12,10 @@ Technology Stack
 
 
 
-
-Contributors
+<border-bottom: solid 4px;>
+Contributors<br>
 Team Name: alphaX<br>
 1.Priyank Aman<br>
 2.Aman Shankar Singh<br>
-3.Harsh Kumar Tiwary
+3.Harsh Kumar Tiwary<br>
 4.Vani Tripathi
